@@ -8,7 +8,7 @@ interface WCPage extends HTMLElement {
     
     settitle(title: string): void;
     
-    id: string,
+    id: string;
     
     hide(): void;
     show(): void;
@@ -16,10 +16,10 @@ interface WCPage extends HTMLElement {
     get body(): HTMLElement | null;
     set body($el: HTMLElement | null);
     
-    get innerHTML(): string | undefined;
+    get innerHTML(): string;
     set innerHTML(html: string);
     
-    get textContent(): string | undefined;
+    get textContent(): string | null;
     set textContent(text: string);
     
     get lead(): HTMLElement;
@@ -116,7 +116,7 @@ interface Acode {
             match: RegExp,
             required: boolean,
             placeholder: string,
-            test: (any)=>boolean
+            test: (value: string)=>boolean
         }
     ): Promise<any>;
     
