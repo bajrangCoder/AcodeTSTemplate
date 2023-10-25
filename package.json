@@ -8,7 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "global": "^4.4.0",
-    "html-tag-js": "^1.1.22"
+    "html-tag-js": "^1.1.22",
+    "@types/ace": "^0.0.50"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",
