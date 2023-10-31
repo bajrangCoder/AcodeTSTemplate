@@ -2,6 +2,9 @@
 /// <reference path="editorManager.d.ts" />
 /// <reference path="editorFile.d.ts" />
 /// <reference path="settings.d.ts" />
+/// <reference path="fsOperation.d.ts" />
+/// <reference path="dialogBox.d.ts" />
+/// <reference path="fileBrowser.d.ts" />
 
 declare var ace: AceAjax.Ace;
 
