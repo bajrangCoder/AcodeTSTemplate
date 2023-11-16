@@ -1,6 +1,6 @@
 {
-  "id": "acode.plugin",
-  "name": "Plugin",
+  "id": "bajrangcoder.react.snippets",
+  "name": "Acode ES7+ React/Redux snippets",
   "main": "dist/main.js",
   "version": "1.0.0",
   "readme": "readme.md",
@@ -9,8 +9,8 @@
   "minVersionCode" : 290,
   "price": 0,
   "author": {
-    "name": "",
-    "email": "",
-    "github": ""
+    "name": "Raunak Raj",
+    "email": "bajrangcoders@gmail.com",
+    "github": "bajrangCoder"
   }
 }
